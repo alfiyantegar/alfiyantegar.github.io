@@ -800,7 +800,7 @@ section {
   font-weight: 400;
   font-size: 13px;
 }
-.contact .php-email-form {
+.contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -808,7 +808,7 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form br + br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 .contact .php-email-form .sent-message {
