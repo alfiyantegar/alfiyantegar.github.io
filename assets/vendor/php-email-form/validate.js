@@ -50,7 +50,7 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
-    fetch('https://formsubmit.co/tegarsh1@gmail.com', {
+    fetch('https://formsubmit.co/6bffdfb39218023aefe0e83bf3ac59c5', {
       method: 'POST',
       body: formData,
       headers: {'X-Requested-With': 'XMLHttpRequest'}
