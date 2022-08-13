@@ -76,9 +76,8 @@
     });
   }
 
-  function displayError(thisForm, error) {
+  function displayError(thisForm) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
