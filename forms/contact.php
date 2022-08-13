@@ -1,5 +1,5 @@
 <?php
-$receiving_email_address = 'tegarsh1@gmail.com';
+$receiving_email_address = 'https://formsubmit.co/6bffdfb39218023aefe0e83bf3ac59c5';
 if( file_exists($php_email_form = '../assets/vendor/php-email-form/validate.js' )) {
   include( $php_email_form );
 } else {
